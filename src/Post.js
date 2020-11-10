@@ -31,15 +31,15 @@ function Post({ profilePic, image, username, timestamp, message}) {
     <div className="post__options">
       <div className="post__option">
         <ThumbUpIcon />
-        <p>Beğen</p>
+        <p>Like</p>
       </div>
       <div className="post__option">
       <ChatBubbleOutlineIcon />
-        <p>Yorum Yap</p>
+        <p>Comment</p>
       </div>
       <div className="post__option">
       <NearMeIcon />
-        <p>Paylaş</p>
+        <p>Share</p>
       </div>
       <div className="post__option">
         <AccountCircleIcon />
